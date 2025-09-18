@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #e4cbcb;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+
+}
+
+h1 {
+    color: #333;
+
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cepInput {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px 0 0 4px;
+    flex-grow: 1;
+    font-size: 1;
+    outline: none;
+
+}
+
+#searchButton {
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(163, 10, 87);
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: beckgroud-color 0.3s ease;
+
+}
+
+#searchButton:hover {
+    background-color: rgb(211, 26, 118);
+
+    
+}
+
+.result-box {
+    text-align: left;
+    margin-top: 20px;
+    border-top: 2 solid #9c0000;
+    padding-top: 20px;
+}
+
+.result-box p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.result-box strong {
+    color: #000;
+}
+
+.message-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.error {
+    background-color: red;
+    color: #722b2b;
+    border: 1px solid #b40505;
+}
+
+.hidden {
+    display: none;
+}
